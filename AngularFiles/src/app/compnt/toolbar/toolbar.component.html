@@ -1,0 +1,57 @@
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+  }
+</style>
+
+<p>
+  <mat-toolbar color="primary" class="toolbar">
+
+    <span class="titulo-menu">Instituto Federal Goiano</span>
+
+
+    <button mat-button [matMenuTriggerFor]="menu">
+      <span class="material-symbols-outlined">
+        widgets
+      </span>
+    </button>
+    <mat-menu #menu="matMenu">
+
+      <button mat-menu-item>
+        <span class="material-symbols-outlined">
+          login
+        </span>
+        <span>
+          <a href="#">Entrar</a>
+        </span>
+      </button>
+      <button mat-menu-item>
+        <span class="material-symbols-outlined">
+          login
+        </span>
+        <span>
+          <a href="#">Registrar</a>
+        </span>
+      </button>
+      <button mat-menu-item>
+        <span class="material-symbols-outlined">
+          slideshow
+        </span>
+        <span>
+          <a href="/AngularFiles/src/index2.html"> SLIDE</a>
+        </span>
+      </button>
+    </mat-menu>
+
+
+
+
+
+  </mat-toolbar>
+</p>
